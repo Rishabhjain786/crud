@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: linear-gradient(to right ,rgb(26, 81, 144), rgb(156, 34, 34),pink);
+  }
+  .heading{
+    text-align: center;
+    color: white;
+  }
+  .details{
+    text-align: center;
+   margin-top: 10px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  form button{
+    width: fit-content;
+    margin-left: 50%;
+    background-color: aqua;
+    margin-bottom: 25px;
+}
+ tr {
+    margin-top: 25px;
+    /* background-color: rebeccapurple; */
+    display:flex;
+    /* flex-direction: column; */
+    width: 95vw;
+    gap: 25vw;
+    /* overflow: scroll; */
+
+}
+.datas{
+    display: flex;
+    width: 100vw;
+    gap: 4vw;
+   overflow: scroll;
+}
+  
+ @media screen and (min-width:400px) and (max-width:610px) {
+
+    .heading{
+        text-align: center;
+        color: white;
+        font-size: 55px;
+      }
+      tr {
+        margin-top: 25px;
+        display:flex;
+        width: 95vw;
+        gap: 30vw;
+    }
+    .datas{
+        display: flex;
+        width: 100vw;
+        gap: 15vw;
+       overflow: scroll;
+    }
+    
+ } 
+ @media screen and (min-width:610px) and (max-width:900px) {
+
+    .heading{
+        text-align: center;
+        color: white;
+        font-size: 55px;
+      }
+      tr {
+        margin-top: 25px;
+        display:flex;
+        width: 95vw;
+        gap: 30vw;
+    }
+    .datas{
+        display: flex;
+        width: 100vw;
+        gap: 20vw;
+       overflow: scroll;
+    }
+    
+ } 
+ @media screen and (min-width:900px) {
+
+    .heading{
+        text-align: center;
+        color: white;
+        font-size: 55px;
+      }
+      tr {
+        margin-top: 25px;
+        display:flex;
+        width: 95vw;
+        gap: 40vw;
+    }
+    .datas{
+        display: flex;
+        width: 100vw;
+        gap: 33vw;
+       overflow: scroll;
+    }
+    
+ } 
